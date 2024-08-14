@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 503382018,
+        "prev_ver": 503447554,
         "name": "Desktop Audio",
         "uuid": "adb4b3b7-be5e-4333-974a-f727088eaf62",
         "id": "wasapi_output_capture",
@@ -14,7 +14,7 @@
         "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
-        "muted": false,
+        "muted": true,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 503382018,
+        "prev_ver": 503447554,
         "name": "Mic/Aux",
         "uuid": "97c39df2-2cdb-4994-acd6-713b36512766",
         "id": "wasapi_input_capture",
@@ -63,23 +63,23 @@
             "mixer_hidden": false
         }
     },
-    "current_scene": "Feature Match",
-    "current_program_scene": "Feature Match",
+    "current_scene": "Stream Start",
+    "current_program_scene": "Stream Start",
     "scene_order": [
         {
             "name": "Stream Start"
         },
         {
-            "name": "Feature Match"
+            "name": "Next Round Soon"
         },
         {
-            "name": "Commentators"
+            "name": "Feature Match"
         }
     ],
     "name": "stream_event_coverage",
     "groups": [
         {
-            "prev_ver": 503382018,
+            "prev_ver": 503447554,
             "name": "Players",
             "uuid": "010fa9ab-b9ef-48e5-b103-02ee5570c2d4",
             "id": "group",
@@ -87,36 +87,36 @@
             "settings": {
                 "id_counter": 0,
                 "custom_size": true,
-                "cx": 1889,
-                "cy": 848,
+                "cx": 1854,
+                "cy": 757,
                 "items": [
                     {
                         "name": "Blue Player Name",
-                        "source_uuid": "7dd8eb7a-42cb-4975-a88e-1ad1d99931cf",
+                        "source_uuid": "96f646b4-388d-4b60-ba35-3392749d6110",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 4.0,
+                            "x": 1484.0,
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.69599997997283936,
-                            "y": 0.9296875
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
-                        "bounds_type": 1,
+                        "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 342.0,
-                            "y": 86.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 6,
+                        "id": 24,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -133,32 +133,32 @@
                         }
                     },
                     {
-                        "name": "Red Player Name",
-                        "source_uuid": "83f62e26-f85d-4d50-920c-85c51e68ca09",
+                        "name": "Blue Player Deck",
+                        "source_uuid": "88145271-6db3-4ebd-9a34-d54601b1d425",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1547.0,
-                            "y": 697.0
+                            "x": 1610.0,
+                            "y": 95.0
                         },
                         "scale": {
-                            "x": 0.5625,
-                            "y": 0.9375
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
-                        "bounds_type": 1,
+                        "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 342.0,
-                            "y": 94.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 7,
+                        "id": 25,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -170,19 +170,19 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "color-preset": 2,
+                            "color-preset": 6,
                             "color": ""
                         }
                     },
                     {
-                        "name": "Blue Player Deck",
-                        "source_uuid": "3d97775b-fc9b-4102-a74d-70ce432cf52c",
+                        "name": "Blue Player Score",
+                        "source_uuid": "d52fdc33-c271-4ef3-88fa-8f5faad59565",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 0.0,
-                            "y": 121.0
+                            "x": 1510.0,
+                            "y": 95.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -193,14 +193,14 @@
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 222.0,
-                            "y": 28.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 8,
+                        "id": 28,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -218,13 +218,13 @@
                     },
                     {
                         "name": "Red Player Deck",
-                        "source_uuid": "d816b429-1a77-40f2-8372-02c7f857992e",
+                        "source_uuid": "c43f5eaa-5865-4499-a8d4-f21cd92674fb",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1774.0,
-                            "y": 822.0
+                            "x": 2.0,
+                            "y": 725.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -242,7 +242,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 9,
+                        "id": 29,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -254,8 +254,92 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "color-preset": 2,
-                            "color": ""
+                            "color-preset": 1,
+                            "color": "#55ff0000"
+                        }
+                    },
+                    {
+                        "name": "Red Player Score",
+                        "source_uuid": "1abbcc86-24a3-4160-bca2-449def734773",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 274.0,
+                            "y": 724.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 30,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "color-preset": 1,
+                            "color": "#55ff0000"
+                        }
+                    },
+                    {
+                        "name": "Red Player Name",
+                        "source_uuid": "3e6298b9-b21a-4b88-aabc-0004bb585561",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 627.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 31,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "color-preset": 1,
+                            "color": "#55ff0000"
                         }
                     }
                 ]
@@ -272,14 +356,18 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": [],
-                "libobs.show_scene_item.9": [],
-                "libobs.hide_scene_item.9": []
+                "libobs.show_scene_item.24": [],
+                "libobs.hide_scene_item.24": [],
+                "libobs.show_scene_item.25": [],
+                "libobs.hide_scene_item.25": [],
+                "libobs.show_scene_item.28": [],
+                "libobs.hide_scene_item.28": [],
+                "libobs.show_scene_item.29": [],
+                "libobs.hide_scene_item.29": [],
+                "libobs.show_scene_item.30": [],
+                "libobs.hide_scene_item.30": [],
+                "libobs.show_scene_item.31": [],
+                "libobs.hide_scene_item.31": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -287,7 +375,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382018,
+            "prev_ver": 503447554,
             "name": "Tournament Info",
             "uuid": "de00bbc5-0631-4849-a1e3-95df4ed9be3f",
             "id": "group",
@@ -295,18 +383,18 @@
             "settings": {
                 "id_counter": 0,
                 "custom_size": true,
-                "cx": 1000,
-                "cy": 76,
+                "cx": 1160,
+                "cy": 63,
                 "items": [
                     {
                         "name": "Tournament Name",
                         "source_uuid": "0da0e357-18ab-4404-b05f-6148dc744dc7",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 284.0,
+                            "y": 1.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -338,14 +426,14 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Date",
-                        "source_uuid": "354d735c-bdee-4224-86ca-adc4cfd409fb",
+                        "name": "Round",
+                        "source_uuid": "ad4888ab-ae93-47ea-a04a-bf42da287843",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 400.0,
-                            "y": 44.0
+                            "x": 908.0,
+                            "y": 0.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -363,7 +451,46 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 19,
+                        "id": 21,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Date",
+                        "source_uuid": "248bd612-e68a-4056-813e-c37ad57804e0",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 23,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -392,8 +519,10 @@
             "hotkeys": {
                 "libobs.show_scene_item.17": [],
                 "libobs.hide_scene_item.17": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": []
+                "libobs.show_scene_item.21": [],
+                "libobs.hide_scene_item.21": [],
+                "libobs.show_scene_item.23": [],
+                "libobs.hide_scene_item.23": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -439,11 +568,10 @@
     "modules": {
         "scripts-tool": [
             {
-                "path": "C:/Users/andre/Desktop/StreamOverlay/scripts/round.lua",
+                "path": "C:/Users/andre/Desktop/Haslmike/haslmike_stream/scripts/date_updater.lua",
                 "settings": {
-                    "source_name": "Red Player Deck",
-                    "frequency": 18.899999999999999,
-                    "amplitude": 53
+                    "date_text": "Date",
+                    "enable": true
                 }
             }
         ],
@@ -474,14 +602,15 @@
     },
     "sources": [
         {
-            "prev_ver": 503382018,
+            "prev_ver": 503447554,
             "name": "Animated Background",
             "uuid": "3c3212a8-02c9-40b1-bcdc-9b52e0a09f07",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/andre/Desktop/StreamOverlay/AnimatedBackgroundDark.mp4",
-                "looping": true
+                "local_file": "C:/Users/andre/Desktop/Haslmike/haslmike_stream/resources/feature_match/animated_background_chroma.mp4",
+                "looping": true,
+                "speed_percent": 100
             },
             "mixers": 255,
             "sync": 0,
@@ -508,123 +637,57 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {
-                "mixer_hidden": false
-            }
+                "mixer_hidden": true
+            },
+            "filters": [
+                {
+                    "prev_ver": 503447554,
+                    "name": "Chroma Key",
+                    "uuid": "639545b5-1026-4d06-8d7c-c28047a92e91",
+                    "id": "chroma_key_filter",
+                    "versioned_id": "chroma_key_filter_v2",
+                    "settings": {
+                        "similarity": 400,
+                        "smoothness": 1,
+                        "spill": 1
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
-            "prev_ver": 503382018,
+            "prev_ver": 503447554,
             "name": "Blue Player Deck",
-            "uuid": "3d97775b-fc9b-4102-a74d-70ce432cf52c",
+            "uuid": "88145271-6db3-4ebd-9a34-d54601b1d425",
             "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v2",
+            "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Snake-Eyes Fire Kings",
-                "font": {
-                    "face": "Arial",
-                    "style": "Regular",
-                    "size": 28,
-                    "flags": 0
-                },
-                "color": 4291151301
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "Blue Player Name",
-            "uuid": "7dd8eb7a-42cb-4975-a88e-1ad1d99931cf",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v2",
-            "settings": {
-                "text": "Schlager A.",
-                "font": {
-                    "face": "Arial",
-                    "style": "Bold",
-                    "size": 128,
-                    "flags": 1
-                },
-                "align": "center",
-                "valign": "center"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "Commentators",
-            "uuid": "6bcd7ac7-7546-4e0e-a553-d13f4fd29dd0",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": false,
-                "items": []
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "Date",
-            "uuid": "354d735c-bdee-4224-86ca-adc4cfd409fb",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v2",
-            "settings": {
-                "text": "19.04.2024",
                 "extents": true,
+                "text": "Tri-Brigade Fire Kings",
                 "font": {
-                    "face": "Arial",
-                    "style": "Regular",
-                    "size": 28,
+                    "face": "Bahnschrift Light",
+                    "style": "Light",
+                    "size": 24,
                     "flags": 0
                 },
-                "align": "center",
-                "extents_cx": 200,
+                "align": "right",
+                "color": 4291611852,
+                "extents_cx": 244,
                 "extents_cy": 32
             },
             "mixers": 0,
@@ -645,20 +708,162 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382018,
+            "prev_ver": 503447554,
+            "name": "Blue Player Name",
+            "uuid": "96f646b4-388d-4b60-ba35-3392749d6110",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "extents": true,
+                "text": "Cengiz K.",
+                "font": {
+                    "face": "Bahnschrift SemiBold Condensed",
+                    "style": "SemiBold Condensed",
+                    "size": 86,
+                    "flags": 1
+                },
+                "align": "center",
+                "color": 4293256677,
+                "extents_cx": 368,
+                "extents_cy": 80
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Blue Player Score",
+            "uuid": "d52fdc33-c271-4ef3-88fa-8f5faad59565",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "extents": false,
+                "text": "3 - 0 - 1",
+                "vertical": false,
+                "font": {
+                    "face": "Bahnschrift Light",
+                    "style": "Light",
+                    "size": 24,
+                    "flags": 0
+                },
+                "align": "right",
+                "color": 4291611852,
+                "extents_cx": 70,
+                "extents_cy": 32
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Cardarena IRL",
+            "uuid": "2636b441-51b9-463e-9600-9af7def86069",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/andre/Desktop/Haslmike/haslmike_stream/resources/pause/cardarena_salzburg_rl.jpg"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Date",
+            "uuid": "248bd612-e68a-4056-813e-c37ad57804e0",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "extents": true,
+                "outline": false,
+                "gradient": false,
+                "text": "14.08.2024",
+                "font": {
+                    "face": "Bahnschrift SemiLight",
+                    "style": "SemiLight",
+                    "size": 42,
+                    "flags": 0
+                },
+                "align": "center",
+                "valign": "center",
+                "color": 4283190348,
+                "extents_cx": 252,
+                "extents_cy": 44,
+                "antialiasing": true
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
             "name": "Feature Match",
             "uuid": "369af512-7dd0-4d64-bc69-91b887f3ac8a",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 20,
+                "id_counter": 33,
                 "custom_size": false,
                 "items": [
                     {
                         "name": "Animated Background",
                         "source_uuid": "3c3212a8-02c9-40b1-bcdc-9b52e0a09f07",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -697,7 +902,7 @@
                         "name": "Feature Match Background",
                         "source_uuid": "bb5a232a-c01f-4918-a613-9bc0ebef1fd7",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -736,11 +941,11 @@
                         "name": "Tournament Name",
                         "source_uuid": "0da0e357-18ab-4404-b05f-6148dc744dc7",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 460.0,
-                            "y": 981.0
+                            "x": 680.0,
+                            "y": 44.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -772,14 +977,14 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Date",
-                        "source_uuid": "354d735c-bdee-4224-86ca-adc4cfd409fb",
+                        "name": "Round",
+                        "source_uuid": "ad4888ab-ae93-47ea-a04a-bf42da287843",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 860.0,
-                            "y": 1025.0
+                            "x": 1304.0,
+                            "y": 43.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -797,7 +1002,46 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 19,
+                        "id": 21,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Date",
+                        "source_uuid": "248bd612-e68a-4056-813e-c37ad57804e0",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 396.0,
+                            "y": 43.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 23,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -814,11 +1058,11 @@
                         "name": "Tournament Info",
                         "source_uuid": "de00bbc5-0631-4849-a1e3-95df4ed9be3f",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 460.0,
-                            "y": 981.0
+                            "x": 396.0,
+                            "y": 43.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -848,144 +1092,18 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
                     },
                     {
                         "name": "Blue Player Name",
-                        "source_uuid": "7dd8eb7a-42cb-4975-a88e-1ad1d99931cf",
+                        "source_uuid": "96f646b4-388d-4b60-ba35-3392749d6110",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 18.0,
-                            "y": 68.0
-                        },
-                        "scale": {
-                            "x": 0.69599997997283936,
-                            "y": 0.9296875
-                        },
-                        "align": 5,
-                        "bounds_type": 1,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 342.0,
-                            "y": 86.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 6,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Red Player Name",
-                        "source_uuid": "83f62e26-f85d-4d50-920c-85c51e68ca09",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1561.0,
-                            "y": 765.0
-                        },
-                        "scale": {
-                            "x": 0.5625,
-                            "y": 0.9375
-                        },
-                        "align": 5,
-                        "bounds_type": 1,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 342.0,
-                            "y": 94.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 2,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Blue Player Deck",
-                        "source_uuid": "3d97775b-fc9b-4102-a74d-70ce432cf52c",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 14.0,
-                            "y": 189.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 222.0,
-                            "y": 28.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 6,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Red Player Deck",
-                        "source_uuid": "d816b429-1a77-40f2-8372-02c7f857992e",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1788.0,
-                            "y": 890.0
+                            "x": 1517.0,
+                            "y": 174.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1003,7 +1121,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 9,
+                        "id": 24,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1015,8 +1133,218 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "color-preset": 2,
+                            "color-preset": 6,
                             "color": ""
+                        }
+                    },
+                    {
+                        "name": "Blue Player Deck",
+                        "source_uuid": "88145271-6db3-4ebd-9a34-d54601b1d425",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1643.0,
+                            "y": 269.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 25,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "color-preset": 6,
+                            "color": ""
+                        }
+                    },
+                    {
+                        "name": "Blue Player Score",
+                        "source_uuid": "d52fdc33-c271-4ef3-88fa-8f5faad59565",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1543.0,
+                            "y": 269.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 28,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "color-preset": 6,
+                            "color": ""
+                        }
+                    },
+                    {
+                        "name": "Red Player Deck",
+                        "source_uuid": "c43f5eaa-5865-4499-a8d4-f21cd92674fb",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 35.0,
+                            "y": 899.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 29,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "color-preset": 1,
+                            "color": "#55ff0000"
+                        }
+                    },
+                    {
+                        "name": "Red Player Score",
+                        "source_uuid": "1abbcc86-24a3-4160-bca2-449def734773",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 307.0,
+                            "y": 898.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 30,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "color-preset": 1,
+                            "color": "#55ff0000"
+                        }
+                    },
+                    {
+                        "name": "Red Player Name",
+                        "source_uuid": "3e6298b9-b21a-4b88-aabc-0004bb585561",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 33.0,
+                            "y": 801.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 31,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "color-preset": 1,
+                            "color": "#55ff0000"
                         }
                     },
                     {
@@ -1026,8 +1354,8 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 14.0,
-                            "y": 68.0
+                            "x": 33.0,
+                            "y": 174.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1090,13 +1418,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382018,
+            "prev_ver": 503447554,
             "name": "Feature Match Background",
             "uuid": "bb5a232a-c01f-4918-a613-9bc0ebef1fd7",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/andre/Desktop/StreamOverlay/Layout/Feature_Match_Layout.png"
+                "file": "C:/Users/andre/Desktop/Haslmike/haslmike_stream/resources/feature_match/feature_match_overlay.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -1113,80 +1441,41 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447554,
+                    "name": "Chroma Key",
+                    "uuid": "3d60a075-0e11-4e05-912a-63632a56bf2d",
+                    "id": "chroma_key_filter",
+                    "versioned_id": "chroma_key_filter_v2",
+                    "settings": {
+                        "smoothness": 1,
+                        "spill": 1
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
-            "prev_ver": 503382018,
-            "name": "Red Player Deck",
-            "uuid": "d816b429-1a77-40f2-8372-02c7f857992e",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v2",
-            "settings": {
-                "text": "Prank-Kids",
-                "undo_uuid": "d816b429-1a77-40f2-8372-02c7f857992e",
-                "font": {
-                    "face": "Arial",
-                    "style": "Regular",
-                    "size": 26,
-                    "flags": 0
-                },
-                "color": 4291151301
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "Red Player Name",
-            "uuid": "83f62e26-f85d-4d50-920c-85c51e68ca09",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v2",
-            "settings": {
-                "text": "Hofstatter L.",
-                "font": {
-                    "face": "Arial",
-                    "style": "Bold",
-                    "size": 128,
-                    "flags": 1
-                },
-                "align": "center",
-                "valign": "center"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "Stream Start",
-            "uuid": "77f2fadf-f08d-4e98-8ea7-05e7326a0dbc",
+            "prev_ver": 503447554,
+            "name": "Next Round Soon",
+            "uuid": "88ada326-0ebe-4b2d-8c70-8d61b952740d",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -1194,8 +1483,47 @@
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Animated Background",
-                        "source_uuid": "3c3212a8-02c9-40b1-bcdc-9b52e0a09f07",
+                        "name": "Cardarena IRL",
+                        "source_uuid": "2636b441-51b9-463e-9600-9af7def86069",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 419.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Pause Background Animation",
+                        "source_uuid": "4a12180c-e606-4dfb-ba84-c80c4e985b7a",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1219,7 +1547,46 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 3,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Next Round Text Overlay",
+                        "source_uuid": "80615e55-cb64-4cbb-a7c9-af7a51d173a1",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1248,7 +1615,11 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": []
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1256,26 +1627,587 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382018,
+            "prev_ver": 503447554,
+            "name": "Next Round Text Overlay",
+            "uuid": "80615e55-cb64-4cbb-a7c9-af7a51d173a1",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/andre/Desktop/Haslmike/haslmike_stream/resources/pause/next_round_starting_soon.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Pause Background Animation",
+            "uuid": "4a12180c-e606-4dfb-ba84-c80c4e985b7a",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "C:/Users/andre/Desktop/Haslmike/haslmike_stream/resources/pause/pause_background_animation.mp4",
+                "looping": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447554,
+                    "name": "Chroma Key",
+                    "uuid": "081bb04f-98df-4c4f-929d-d1bd0fbe9e2c",
+                    "id": "chroma_key_filter",
+                    "versioned_id": "chroma_key_filter_v2",
+                    "settings": {
+                        "smoothness": 1,
+                        "spill": 1
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Red Player Deck",
+            "uuid": "c43f5eaa-5865-4499-a8d4-f21cd92674fb",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "extents": true,
+                "text": "Tri-Brigade Fire Kings",
+                "font": {
+                    "face": "Bahnschrift Light",
+                    "style": "Light",
+                    "size": 24,
+                    "flags": 0
+                },
+                "align": "left",
+                "color": 4291611852,
+                "extents_cx": 244,
+                "extents_cy": 32
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Red Player Name",
+            "uuid": "3e6298b9-b21a-4b88-aabc-0004bb585561",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "extents": true,
+                "text": "Schlager A.",
+                "font": {
+                    "face": "Bahnschrift SemiBold Condensed",
+                    "style": "SemiBold Condensed",
+                    "size": 86,
+                    "flags": 1
+                },
+                "align": "center",
+                "color": 4293256677,
+                "extents_cx": 368,
+                "extents_cy": 80
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Red Player Score",
+            "uuid": "1abbcc86-24a3-4160-bca2-449def734773",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "extents": false,
+                "text": "3 - 0 - 1",
+                "vertical": false,
+                "font": {
+                    "face": "Bahnschrift Light",
+                    "style": "Light",
+                    "size": 24,
+                    "flags": 0
+                },
+                "align": "right",
+                "color": 4291611852,
+                "extents_cx": 70,
+                "extents_cy": 32
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Round",
+            "uuid": "ad4888ab-ae93-47ea-a04a-bf42da287843",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "text": "Round 1",
+                "extents": true,
+                "outline": false,
+                "gradient": false,
+                "font": {
+                    "face": "Bahnschrift SemiLight",
+                    "style": "SemiLight",
+                    "size": 42,
+                    "flags": 0
+                },
+                "align": "center",
+                "valign": "center",
+                "color": 4283190348,
+                "extents_cx": 252,
+                "extents_cy": 44,
+                "antialiasing": true
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Starting Soon Text Overlay",
+            "uuid": "648f05c8-6d98-4535-a139-b658c9eb807e",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/andre/Desktop/Haslmike/haslmike_stream/resources/pause/starting_soon_text.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Stream Start",
+            "uuid": "77f2fadf-f08d-4e98-8ea7-05e7326a0dbc",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 9,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Cardarena IRL",
+                        "source_uuid": "2636b441-51b9-463e-9600-9af7def86069",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 579.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Pause Background Animation",
+                        "source_uuid": "4a12180c-e606-4dfb-ba84-c80c4e985b7a",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Starting Soon Text Overlay",
+                        "source_uuid": "648f05c8-6d98-4535-a139-b658c9eb807e",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Stream Starting Soon",
+                        "source_uuid": "d57e9a86-caa9-406b-b08c-7dd44813b95b",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Twitch Social",
+                        "source_uuid": "251732e3-0bff-4b56-a639-c1e920d063bd",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 648.0,
+                            "y": 635.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 9,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": [],
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Stream Starting Soon",
+            "uuid": "d57e9a86-caa9-406b-b08c-7dd44813b95b",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {},
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
             "name": "Tournament Name",
             "uuid": "0da0e357-18ab-4404-b05f-6148dc744dc7",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "salzburg yu-gi-oh! locals",
                 "extents": true,
                 "outline": false,
                 "read_from_file": false,
+                "gradient": false,
+                "text": "Salzburg Locals",
                 "font": {
-                    "face": "Arial",
+                    "face": "Bahnschrift",
                     "style": "Bold",
-                    "size": 36,
+                    "size": 48,
                     "flags": 1
                 },
                 "align": "center",
-                "extents_cx": 1000,
-                "extents_cy": 36,
+                "valign": "center",
+                "color": 4279900698,
+                "gradient_color": 4278212010,
+                "extents_wrap": true,
+                "extents_cx": 560,
+                "extents_cy": 62,
                 "transform": 1
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447554,
+            "name": "Twitch Social",
+            "uuid": "251732e3-0bff-4b56-a639-c1e920d063bd",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/andre/Desktop/Haslmike/haslmike_stream/resources/socials/Twitch.png"
             },
             "mixers": 0,
             "sync": 0,
